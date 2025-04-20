@@ -1,0 +1,33 @@
+{
+  "name": "netrunner-card-data",
+  "version": "0.1.0",
+  "description": "《矩阵潜袭》中文卡牌数据库数据导出工具",
+  "type": "module",
+  "main": "./build/index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc -p tsconfig.json",
+    "build:release": "npm run clean && tsc -p tsconfig.release.json",
+    "clean": "rimraf build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eric03742/netrunner-card-data.git"
+  },
+  "keywords": [
+    "Netrunner"
+  ],
+  "author": {
+    "name": "Eric03742",
+    "email": "eric03742@foxmail.com",
+    "url": "https://github.com/eric03742"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eric03742/netrunner-card-data/issues"
+  },
+  "homepage": "https://github.com/eric03742/netrunner-card-data#readme",
+  "engines": {
+    "node": ">= 22.11 < 23"
+  }
+}
