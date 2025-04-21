@@ -20,7 +20,7 @@ interface AppOptions extends NetrunnerDataSourceOptions {
 }
 
 program
-    .version("0.1.0", "-v, --version", "显示程序版本")
+    .version("0.2.0", "-v, --version", "显示程序版本")
     .requiredOption("--host <host>", "数据库地址")
     .requiredOption("--port <port>", "端口", parseInt)
     .requiredOption("--username <username>", "用户名")
