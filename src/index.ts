@@ -5,6 +5,7 @@ import fs from "fs/promises";
 import log from "loglevel";
 import path from "path";
 import { program } from "commander";
+import { EntityTarget } from "typeorm";
 
 import {
     SEPARATOR, NetrunnerDataSource, NetrunnerDataSourceOptions,
@@ -12,8 +13,7 @@ import {
     SettypeEntity, CycleEntity, SetEntity,
     FormatEntity, PoolEntity, RestrictionEntity, SnapshotEntity,
     CardEntity, PrintingEntity, RulingEntity,
-} from "netrunner-entities";
-import { EntityTarget } from "typeorm";
+} from "@eric03742/netrunner-entities";
 
 interface AppOptions extends NetrunnerDataSourceOptions {
     output: string;
