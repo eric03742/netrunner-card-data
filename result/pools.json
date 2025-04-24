@@ -931,5 +931,45 @@
     "cycle_codename_list": [
       "system_gateway"
     ]
+  },
+  {
+    "codename": "rotation_2025",
+    "oracle_name": "Seventh Rotation",
+    "format_codename": "standard",
+    "set_codename_list": [
+      "downfall",
+      "elevation",
+      "midnight_sun",
+      "midnight_sun_booster_pack",
+      "parhelion",
+      "rebellion_without_rehearsal",
+      "system_gateway",
+      "the_automata_initiative",
+      "uprising",
+      "uprising_booster_pack"
+    ],
+    "cycle_codename_list": [
+      "ashes",
+      "borealis",
+      "elevation",
+      "liberation",
+      "system_gateway"
+    ]
+  },
+  {
+    "codename": "startup_elevation",
+    "oracle_name": "Startup (Elevation)",
+    "format_codename": "startup",
+    "set_codename_list": [
+      "elevation",
+      "rebellion_without_rehearsal",
+      "system_gateway",
+      "the_automata_initiative"
+    ],
+    "cycle_codename_list": [
+      "elevation",
+      "liberation",
+      "system_gateway"
+    ]
   }
 ]

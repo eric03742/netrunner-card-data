@@ -1588,5 +1588,79 @@
       "tributary"
     ],
     "banned_subtype_codename_list": []
+  },
+  {
+    "codename": "eternal_points_list_25_04",
+    "oracle_name": "Eternal Points List 25.04",
+    "format_codename": "eternal",
+    "start_date": "2025-04-04",
+    "banned_card_codename_list": [
+      "accelerated_diagnostics",
+      "aghora",
+      "hired_help",
+      "sadyojata",
+      "salvaged_vanadis_armory",
+      "vamadeva",
+      "watch_the_world_burn"
+    ],
+    "banned_subtype_codename_list": []
+  },
+  {
+    "codename": "standard_ban_list_25_04",
+    "oracle_name": "Standard Ban List 25.04",
+    "format_codename": "standard",
+    "start_date": "2025-04-24",
+    "banned_card_codename_list": [
+      "bellona",
+      "bukhgalter",
+      "cayambe_grid",
+      "cleaver",
+      "creative_commission",
+      "cyberdex_sandbox",
+      "daily_casts",
+      "dr_vientiane_keeling",
+      "drago_ivanov",
+      "dreamnet",
+      "endurance",
+      "engram_flush",
+      "gold_farmer",
+      "k2cp_turbine",
+      "luminal_transubstantiation",
+      "moshing",
+      "nanisivik_grid",
+      "nbn_reality_plus",
+      "project_vacheron",
+      "rezeki",
+      "tributary",
+      "trick_shot",
+      "world_tree"
+    ],
+    "banned_subtype_codename_list": []
+  },
+  {
+    "codename": "startup_balance_update_25_04_for_classic_only",
+    "oracle_name": "Startup Balance Update 25.04 (ignore active date)",
+    "format_codename": "standard",
+    "start_date": "2025-04-23",
+    "banned_card_codename_list": [
+      "cleaver",
+      "nbn_reality_plus",
+      "pharos",
+      "tributary"
+    ],
+    "banned_subtype_codename_list": []
+  },
+  {
+    "codename": "startup_balance_update_25_04",
+    "oracle_name": "Startup Balance Update 25.04",
+    "format_codename": "startup",
+    "start_date": "2025-04-24",
+    "banned_card_codename_list": [
+      "cleaver",
+      "nbn_reality_plus",
+      "pharos",
+      "tributary"
+    ],
+    "banned_subtype_codename_list": []
   }
 ]

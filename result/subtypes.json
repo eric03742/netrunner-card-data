@@ -523,5 +523,10 @@
     "codename": "weapon",
     "oracle_name": "Weapon",
     "locale_name": "武器"
+  },
+  {
+    "codename": "unsubstantiated",
+    "oracle_name": "Unsubstantiated",
+    "locale_name": "未证实"
   }
 ]
