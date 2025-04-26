@@ -8,7 +8,7 @@ import { program } from "commander";
 import { EntityTarget } from "typeorm";
 
 import {
-    SEPARATOR, NetrunnerDataSource, NetrunnerDataSourceOptions,
+    NetrunnerDataSource, NetrunnerDataSourceOptions,
     BaseEntity, SideEntity, FactionEntity, TypeEntity, SubtypeEntity,
     SettypeEntity, CycleEntity, SetEntity,
     FormatEntity, PoolEntity, RestrictionEntity, SnapshotEntity,
@@ -50,8 +50,8 @@ async function extract<T extends BaseEntity>(type: EntityTarget<T>, filename: st
             return undefined;
         }
 
-        if(k.endsWith("list")) {
-            return (v && v.length > 0 ) ? v.split(SEPARATOR) : [];
+        if(k.endsWith("codenames")) {
+            return (v && v.length > 0 ) ? v.split(",") : [];
         }
 
         return v;
