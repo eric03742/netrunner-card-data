@@ -4,56 +4,56 @@
     "oracle_name": "Eternal Points List, Version 1.0",
     "format_codename": "eternal",
     "start_date": "2021-07-10",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "salvaged_vanadis_armory"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
   },
   {
     "codename": "eternal_points_list_21_11",
     "oracle_name": "Eternal Points List 21.11",
     "format_codename": "eternal",
     "start_date": "2021-11-12",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "accelerated_diagnostics",
       "hired_help",
       "salvaged_vanadis_armory",
       "watch_the_world_burn"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
   },
   {
     "codename": "eternal_points_list_22_09",
     "oracle_name": "Eternal Points List 22.09",
     "format_codename": "eternal",
     "start_date": "2022-09-26",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "accelerated_diagnostics",
       "hired_help",
       "salvaged_vanadis_armory",
       "watch_the_world_burn"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
   },
   {
     "codename": "eternal_points_list_23_03",
     "oracle_name": "Eternal Points List 23.03",
     "format_codename": "eternal",
     "start_date": "2023-03-31",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "accelerated_diagnostics",
       "hired_help",
       "salvaged_vanadis_armory",
       "watch_the_world_burn"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
   },
   {
     "codename": "eternal_points_list_23_11",
     "oracle_name": "Eternal Points List 23.11",
     "format_codename": "eternal",
     "start_date": "2023-12-08",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "accelerated_diagnostics",
       "aghora",
       "hired_help",
@@ -62,14 +62,30 @@
       "vamadeva",
       "watch_the_world_burn"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
+  },
+  {
+    "codename": "eternal_points_list_25_04",
+    "oracle_name": "Eternal Points List 25.04",
+    "format_codename": "eternal",
+    "start_date": "2025-04-04",
+    "banned_card_codenames": [
+      "accelerated_diagnostics",
+      "aghora",
+      "hired_help",
+      "sadyojata",
+      "salvaged_vanadis_armory",
+      "vamadeva",
+      "watch_the_world_burn"
+    ],
+    "banned_subtype_codenames": []
   },
   {
     "codename": "snapshot_ban_list_1_0",
     "oracle_name": "Snapshot Ban List 1.0",
     "format_codename": "snapshot",
     "start_date": "2018-09-06",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "24_7_news_cycle",
       "aaron_marron",
       "bloo_moose",
@@ -88,38 +104,38 @@
       "temujin_contract",
       "zer0"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
   },
   {
     "codename": "napd_mwl_1_0",
     "oracle_name": "NAPD MWL 1.0",
     "format_codename": "standard",
     "start_date": "2016-02-01",
-    "banned_card_codename_list": [],
-    "banned_subtype_codename_list": []
+    "banned_card_codenames": [],
+    "banned_subtype_codenames": []
   },
   {
     "codename": "napd_mwl_1_1",
     "oracle_name": "NAPD MWL 1.1",
     "format_codename": "standard",
     "start_date": "2016-08-01",
-    "banned_card_codename_list": [],
-    "banned_subtype_codename_list": []
+    "banned_card_codenames": [],
+    "banned_subtype_codenames": []
   },
   {
     "codename": "napd_mwl_1_2",
     "oracle_name": "NAPD MWL 1.2",
     "format_codename": "standard",
     "start_date": "2017-04-12",
-    "banned_card_codename_list": [],
-    "banned_subtype_codename_list": []
+    "banned_card_codenames": [],
+    "banned_subtype_codenames": []
   },
   {
     "codename": "napd_mwl_2_0",
     "oracle_name": "NAPD MWL 2.0",
     "format_codename": "standard",
     "start_date": "2017-10-01",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "aaron_marron",
       "bloo_moose",
       "clone_suffrage_movement",
@@ -132,14 +148,14 @@
       "sifr",
       "temujin_contract"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
   },
   {
     "codename": "napd_mwl_2_1",
     "oracle_name": "NAPD MWL 2.1",
     "format_codename": "standard",
     "start_date": "2018-02-26",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "aaron_marron",
       "bloo_moose",
       "clone_suffrage_movement",
@@ -151,14 +167,14 @@
       "temujin_contract",
       "violet_level_clearance"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
   },
   {
     "codename": "napd_mwl_2_2",
     "oracle_name": "NAPD MWL 2.2",
     "format_codename": "standard",
     "start_date": "2018-09-06",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "24_7_news_cycle",
       "aaron_marron",
       "bloo_moose",
@@ -177,14 +193,14 @@
       "temujin_contract",
       "zer0"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
   },
   {
     "codename": "standard_ban_list_20_06",
     "oracle_name": "Standard Ban List 20.06",
     "format_codename": "standard",
     "start_date": "2020-06-26",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "24_7_news_cycle",
       "aaron_marron",
       "another_day_another_paycheck",
@@ -257,7 +273,7 @@
       "whampoa_reclamation",
       "zealous_judge"
     ],
-    "banned_subtype_codename_list": [
+    "banned_subtype_codenames": [
       "current"
     ]
   },
@@ -266,7 +282,7 @@
     "oracle_name": "Standard Ban List 20.09",
     "format_codename": "standard",
     "start_date": "2020-09-25",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "24_7_news_cycle",
       "aaron_marron",
       "another_day_another_paycheck",
@@ -342,7 +358,7 @@
       "whampoa_reclamation",
       "zealous_judge"
     ],
-    "banned_subtype_codename_list": [
+    "banned_subtype_codenames": [
       "current"
     ]
   },
@@ -351,7 +367,7 @@
     "oracle_name": "Standard Ban List 21.04",
     "format_codename": "standard",
     "start_date": "2021-04-09",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "24_7_news_cycle",
       "aaron_marron",
       "another_day_another_paycheck",
@@ -428,7 +444,7 @@
       "whampoa_reclamation",
       "zealous_judge"
     ],
-    "banned_subtype_codename_list": [
+    "banned_subtype_codenames": [
       "current"
     ]
   },
@@ -437,7 +453,7 @@
     "oracle_name": "Standard Ban List 21.05",
     "format_codename": "standard",
     "start_date": "2021-05-01",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "24_7_news_cycle",
       "aaron_marron",
       "another_day_another_paycheck",
@@ -511,7 +527,7 @@
       "whampoa_reclamation",
       "zealous_judge"
     ],
-    "banned_subtype_codename_list": [
+    "banned_subtype_codenames": [
       "current"
     ]
   },
@@ -520,7 +536,7 @@
     "oracle_name": "Standard Ban List 21.06",
     "format_codename": "standard",
     "start_date": "2021-06-19",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "24_7_news_cycle",
       "aaron_marron",
       "another_day_another_paycheck",
@@ -600,7 +616,7 @@
       "whampoa_reclamation",
       "zealous_judge"
     ],
-    "banned_subtype_codename_list": [
+    "banned_subtype_codenames": [
       "current"
     ]
   },
@@ -609,7 +625,7 @@
     "oracle_name": "Standard Ban List 21.10",
     "format_codename": "standard",
     "start_date": "2021-10-29",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "24_7_news_cycle",
       "419_amoral_scammer",
       "aaron_marron",
@@ -685,7 +701,7 @@
       "whampoa_reclamation",
       "zealous_judge"
     ],
-    "banned_subtype_codename_list": [
+    "banned_subtype_codenames": [
       "current"
     ]
   },
@@ -694,7 +710,7 @@
     "oracle_name": "Standard Ban List 22.08",
     "format_codename": "standard",
     "start_date": "2022-08-05",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "24_7_news_cycle",
       "419_amoral_scammer",
       "aaron_marron",
@@ -747,7 +763,7 @@
       "watch_the_world_burn",
       "whampoa_reclamation"
     ],
-    "banned_subtype_codename_list": [
+    "banned_subtype_codenames": [
       "current"
     ]
   },
@@ -756,7 +772,7 @@
     "oracle_name": "Standard Ban List 22.09",
     "format_codename": "standard",
     "start_date": "2022-09-23",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "24_7_news_cycle",
       "aaron_marron",
       "another_day_another_paycheck",
@@ -812,7 +828,7 @@
       "watch_the_world_burn",
       "whampoa_reclamation"
     ],
-    "banned_subtype_codename_list": [
+    "banned_subtype_codenames": [
       "current"
     ]
   },
@@ -821,7 +837,7 @@
     "oracle_name": "Standard Ban List 23.03",
     "format_codename": "standard",
     "start_date": "2023-03-03",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "24_7_news_cycle",
       "aaron_marron",
       "another_day_another_paycheck",
@@ -881,7 +897,7 @@
       "watch_the_world_burn",
       "whampoa_reclamation"
     ],
-    "banned_subtype_codename_list": [
+    "banned_subtype_codenames": [
       "current"
     ]
   },
@@ -890,7 +906,7 @@
     "oracle_name": "Standard Ban List 23.08",
     "format_codename": "standard",
     "start_date": "2023-08-11",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "another_day_another_paycheck",
       "archived_memories",
       "bloo_moose",
@@ -943,7 +959,7 @@
       "watch_the_world_burn",
       "whampoa_reclamation"
     ],
-    "banned_subtype_codename_list": [
+    "banned_subtype_codenames": [
       "current"
     ]
   },
@@ -952,7 +968,7 @@
     "oracle_name": "Standard Ban List 23.09",
     "format_codename": "standard",
     "start_date": "2023-09-22",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "another_day_another_paycheck",
       "archived_memories",
       "bloo_moose",
@@ -1006,7 +1022,7 @@
       "watch_the_world_burn",
       "whampoa_reclamation"
     ],
-    "banned_subtype_codename_list": [
+    "banned_subtype_codenames": [
       "current"
     ]
   },
@@ -1015,7 +1031,7 @@
     "oracle_name": "Standard Ban List 24.03",
     "format_codename": "standard",
     "start_date": "2024-03-30",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "another_day_another_paycheck",
       "archived_memories",
       "bloo_moose",
@@ -1070,7 +1086,7 @@
       "watch_the_world_burn",
       "whampoa_reclamation"
     ],
-    "banned_subtype_codename_list": [
+    "banned_subtype_codenames": [
       "current"
     ]
   },
@@ -1079,7 +1095,7 @@
     "oracle_name": "Standard Ban List 24.05",
     "format_codename": "standard",
     "start_date": "2024-05-31",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "another_day_another_paycheck",
       "archived_memories",
       "bellona",
@@ -1138,7 +1154,7 @@
       "watch_the_world_burn",
       "whampoa_reclamation"
     ],
-    "banned_subtype_codename_list": [
+    "banned_subtype_codenames": [
       "current"
     ]
   },
@@ -1147,7 +1163,7 @@
     "oracle_name": "Standard Banlist 24.09",
     "format_codename": "standard",
     "start_date": "2024-09-13",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "another_day_another_paycheck",
       "archived_memories",
       "bellona",
@@ -1207,7 +1223,7 @@
       "whampoa_reclamation",
       "world_tree"
     ],
-    "banned_subtype_codename_list": [
+    "banned_subtype_codenames": [
       "current"
     ]
   },
@@ -1216,7 +1232,7 @@
     "oracle_name": "Standard Ban List 24.12",
     "format_codename": "standard",
     "start_date": "2024-12-26",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "archived_memories",
       "bellona",
       "bloo_moose",
@@ -1267,16 +1283,48 @@
       "whampoa_reclamation",
       "world_tree"
     ],
-    "banned_subtype_codename_list": [
+    "banned_subtype_codenames": [
       "current"
     ]
+  },
+  {
+    "codename": "standard_ban_list_25_04",
+    "oracle_name": "Standard Ban List 25.04",
+    "format_codename": "standard",
+    "start_date": "2025-04-24",
+    "banned_card_codenames": [
+      "bellona",
+      "bukhgalter",
+      "cayambe_grid",
+      "cleaver",
+      "creative_commission",
+      "cyberdex_sandbox",
+      "daily_casts",
+      "dr_vientiane_keeling",
+      "drago_ivanov",
+      "dreamnet",
+      "endurance",
+      "engram_flush",
+      "gold_farmer",
+      "k2cp_turbine",
+      "luminal_transubstantiation",
+      "moshing",
+      "nanisivik_grid",
+      "nbn_reality_plus",
+      "project_vacheron",
+      "rezeki",
+      "tributary",
+      "trick_shot",
+      "world_tree"
+    ],
+    "banned_subtype_codenames": []
   },
   {
     "codename": "standard_mwl_3_0",
     "oracle_name": "Standard MWL 3.0",
     "format_codename": "standard",
     "start_date": "2018-12-21",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "24_7_news_cycle",
       "aaron_marron",
       "bloo_moose",
@@ -1297,14 +1345,14 @@
       "watch_the_world_burn",
       "zer0"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
   },
   {
     "codename": "standard_mwl_3_1",
     "oracle_name": "Standard MWL 3.1",
     "format_codename": "standard",
     "start_date": "2019-02-22",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "24_7_news_cycle",
       "aaron_marron",
       "bloo_moose",
@@ -1326,14 +1374,14 @@
       "watch_the_world_burn",
       "zer0"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
   },
   {
     "codename": "standard_mwl_3_2",
     "oracle_name": "Standard MWL 3.2",
     "format_codename": "standard",
     "start_date": "2019-05-10",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "24_7_news_cycle",
       "aaron_marron",
       "bloo_moose",
@@ -1359,14 +1407,14 @@
       "watch_the_world_burn",
       "zer0"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
   },
   {
     "codename": "standard_mwl_3_3",
     "oracle_name": "Standard MWL 3.3",
     "format_codename": "standard",
     "start_date": "2019-07-19",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "24_7_news_cycle",
       "aaron_marron",
       "bloo_moose",
@@ -1393,14 +1441,14 @@
       "watch_the_world_burn",
       "zer0"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
   },
   {
     "codename": "standard_mwl_3_4",
     "oracle_name": "Standard MWL 3.4",
     "format_codename": "standard",
     "start_date": "2019-09-20",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "24_7_news_cycle",
       "aaron_marron",
       "bloo_moose",
@@ -1429,14 +1477,14 @@
       "zealous_judge",
       "zer0"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
   },
   {
     "codename": "standard_mwl_3_4_b",
     "oracle_name": "Standard MWL 3.4b",
     "format_codename": "standard",
     "start_date": "2019-12-31",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "24_7_news_cycle",
       "aaron_marron",
       "bloo_moose",
@@ -1465,37 +1513,50 @@
       "zealous_judge",
       "zer0"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
+  },
+  {
+    "codename": "startup_balance_update_25_04_for_classic_only",
+    "oracle_name": "Startup Balance Update 25.04 (ignore active date)",
+    "format_codename": "standard",
+    "start_date": "2025-04-23",
+    "banned_card_codenames": [
+      "cleaver",
+      "nbn_reality_plus",
+      "pharos",
+      "tributary"
+    ],
+    "banned_subtype_codenames": []
   },
   {
     "codename": "startup_ban_list_24_01_for_classic_only",
     "oracle_name": "Startup Ban List 24.01 (ignore active date)",
     "format_codename": "standard",
     "start_date": "2023-09-21",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "drago_ivanov",
       "endurance"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
   },
   {
     "codename": "startup_ban_list_24_09_for_classic_only",
     "oracle_name": "Startup Ban List 24.09 (ignore active date)",
     "format_codename": "standard",
     "start_date": "2024-09-01",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "creative_commission",
       "pharos",
       "tributary"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
   },
   {
     "codename": "sunset_ban_list_24_01",
     "oracle_name": "Sunset Ban List 24.01",
     "format_codename": "standard",
     "start_date": "2023-09-21",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "another_day_another_paycheck",
       "archived_memories",
       "attitude_adjustment",
@@ -1562,105 +1623,44 @@
       "watch_the_world_burn",
       "whampoa_reclamation"
     ],
-    "banned_subtype_codename_list": [
+    "banned_subtype_codenames": [
       "current"
     ]
-  },
-  {
-    "codename": "startup_ban_list_24_01",
-    "oracle_name": "Startup Ban List 24.01",
-    "format_codename": "startup",
-    "start_date": "2024-01-19",
-    "banned_card_codename_list": [
-      "drago_ivanov",
-      "endurance"
-    ],
-    "banned_subtype_codename_list": []
-  },
-  {
-    "codename": "startup_ban_list_24_09",
-    "oracle_name": "Startup Ban List 24.09",
-    "format_codename": "startup",
-    "start_date": "2024-09-20",
-    "banned_card_codename_list": [
-      "creative_commission",
-      "pharos",
-      "tributary"
-    ],
-    "banned_subtype_codename_list": []
-  },
-  {
-    "codename": "eternal_points_list_25_04",
-    "oracle_name": "Eternal Points List 25.04",
-    "format_codename": "eternal",
-    "start_date": "2025-04-04",
-    "banned_card_codename_list": [
-      "accelerated_diagnostics",
-      "aghora",
-      "hired_help",
-      "sadyojata",
-      "salvaged_vanadis_armory",
-      "vamadeva",
-      "watch_the_world_burn"
-    ],
-    "banned_subtype_codename_list": []
-  },
-  {
-    "codename": "standard_ban_list_25_04",
-    "oracle_name": "Standard Ban List 25.04",
-    "format_codename": "standard",
-    "start_date": "2025-04-24",
-    "banned_card_codename_list": [
-      "bellona",
-      "bukhgalter",
-      "cayambe_grid",
-      "cleaver",
-      "creative_commission",
-      "cyberdex_sandbox",
-      "daily_casts",
-      "dr_vientiane_keeling",
-      "drago_ivanov",
-      "dreamnet",
-      "endurance",
-      "engram_flush",
-      "gold_farmer",
-      "k2cp_turbine",
-      "luminal_transubstantiation",
-      "moshing",
-      "nanisivik_grid",
-      "nbn_reality_plus",
-      "project_vacheron",
-      "rezeki",
-      "tributary",
-      "trick_shot",
-      "world_tree"
-    ],
-    "banned_subtype_codename_list": []
-  },
-  {
-    "codename": "startup_balance_update_25_04_for_classic_only",
-    "oracle_name": "Startup Balance Update 25.04 (ignore active date)",
-    "format_codename": "standard",
-    "start_date": "2025-04-23",
-    "banned_card_codename_list": [
-      "cleaver",
-      "nbn_reality_plus",
-      "pharos",
-      "tributary"
-    ],
-    "banned_subtype_codename_list": []
   },
   {
     "codename": "startup_balance_update_25_04",
     "oracle_name": "Startup Balance Update 25.04",
     "format_codename": "startup",
     "start_date": "2025-04-24",
-    "banned_card_codename_list": [
+    "banned_card_codenames": [
       "cleaver",
       "nbn_reality_plus",
       "pharos",
       "tributary"
     ],
-    "banned_subtype_codename_list": []
+    "banned_subtype_codenames": []
+  },
+  {
+    "codename": "startup_ban_list_24_01",
+    "oracle_name": "Startup Ban List 24.01",
+    "format_codename": "startup",
+    "start_date": "2024-01-19",
+    "banned_card_codenames": [
+      "drago_ivanov",
+      "endurance"
+    ],
+    "banned_subtype_codenames": []
+  },
+  {
+    "codename": "startup_ban_list_24_09",
+    "oracle_name": "Startup Ban List 24.09",
+    "format_codename": "startup",
+    "start_date": "2024-09-20",
+    "banned_card_codenames": [
+      "creative_commission",
+      "pharos",
+      "tributary"
+    ],
+    "banned_subtype_codenames": []
   }
 ]

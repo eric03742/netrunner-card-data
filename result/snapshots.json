@@ -48,6 +48,14 @@
     "active": false
   },
   {
+    "codename": "eternal_6",
+    "start_date": "2025-04-04",
+    "format_codename": "eternal",
+    "restriction_codename": "eternal_points_list_25_04",
+    "pool_codename": "eternal",
+    "active": true
+  },
+  {
     "codename": "ram_0",
     "start_date": "2021-12-07",
     "format_codename": "ram",
@@ -368,6 +376,14 @@
     "active": false
   },
   {
+    "codename": "standard_30",
+    "start_date": "2024-04-24",
+    "format_codename": "standard",
+    "restriction_codename": "standard_ban_list_25_04",
+    "pool_codename": "rotation_2025",
+    "active": true
+  },
+  {
     "codename": "startup_0",
     "start_date": "2019-03-18",
     "format_codename": "startup",
@@ -424,35 +440,19 @@
     "active": false
   },
   {
-    "codename": "system_gateway_0",
-    "start_date": "2021-04-09",
-    "format_codename": "system_gateway",
-    "restriction_codename": "",
-    "pool_codename": "system_gateway",
-    "active": true
-  },
-  {
-    "codename": "eternal_6",
-    "start_date": "2025-04-04",
-    "format_codename": "eternal",
-    "restriction_codename": "eternal_points_list_25_04",
-    "pool_codename": "eternal",
-    "active": true
-  },
-  {
-    "codename": "standard_30",
-    "start_date": "2024-04-24",
-    "format_codename": "standard",
-    "restriction_codename": "standard_ban_list_25_04",
-    "pool_codename": "rotation_2025",
-    "active": true
-  },
-  {
     "codename": "startup_7",
     "start_date": "2024-04-24",
     "format_codename": "startup",
     "restriction_codename": "startup_balance_update_25_04",
     "pool_codename": "startup_elevation",
+    "active": true
+  },
+  {
+    "codename": "system_gateway_0",
+    "start_date": "2021-04-09",
+    "format_codename": "system_gateway",
+    "restriction_codename": "",
+    "pool_codename": "system_gateway",
     "active": true
   }
 ]

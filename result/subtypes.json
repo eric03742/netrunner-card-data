@@ -505,6 +505,11 @@
     "locale_name": "异类"
   },
   {
+    "codename": "unsubstantiated",
+    "oracle_name": "Unsubstantiated",
+    "locale_name": "未证实"
+  },
+  {
     "codename": "vehicle",
     "oracle_name": "Vehicle",
     "locale_name": "载具"
@@ -523,10 +528,5 @@
     "codename": "weapon",
     "oracle_name": "Weapon",
     "locale_name": "武器"
-  },
-  {
-    "codename": "unsubstantiated",
-    "oracle_name": "Unsubstantiated",
-    "locale_name": "未证实"
   }
 ]

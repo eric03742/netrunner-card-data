@@ -3,7 +3,7 @@
     "codename": "eternal",
     "oracle_name": "Eternal",
     "format_codename": "eternal",
-    "set_codename_list": [
+    "set_codenames": [
       "23_seconds",
       "a_study_in_static",
       "all_that_remains",
@@ -74,7 +74,7 @@
       "what_lies_ahead",
       "whispers_in_nalubaale"
     ],
-    "cycle_codename_list": [
+    "cycle_codenames": [
       "ashes",
       "borealis",
       "core_set",
@@ -105,7 +105,7 @@
     "codename": "ram_0",
     "oracle_name": "RAM 0",
     "format_codename": "ram",
-    "set_codename_list": [
+    "set_codenames": [
       "business_first",
       "chrome_city",
       "core_set",
@@ -121,13 +121,13 @@
       "up_and_over",
       "upstalk"
     ],
-    "cycle_codename_list": []
+    "cycle_codenames": []
   },
   {
     "codename": "ram_1",
     "oracle_name": "RAM 1",
     "format_codename": "ram",
-    "set_codename_list": [
+    "set_codenames": [
       "creation_and_control",
       "daedalus_complex",
       "down_the_white_nile",
@@ -143,13 +143,13 @@
       "what_lies_ahead",
       "whispers_in_nalubaale"
     ],
-    "cycle_codename_list": []
+    "cycle_codenames": []
   },
   {
     "codename": "ram_2",
     "oracle_name": "RAM 2",
     "format_codename": "ram",
-    "set_codename_list": [
+    "set_codenames": [
       "all_that_remains",
       "blood_and_water",
       "breaker_bay",
@@ -165,13 +165,13 @@
       "trace_amount",
       "uprising"
     ],
-    "cycle_codename_list": []
+    "cycle_codenames": []
   },
   {
     "codename": "ram_3",
     "oracle_name": "RAM 3",
     "format_codename": "ram",
-    "set_codename_list": [
+    "set_codenames": [
       "a_study_in_static",
       "business_first",
       "creation_and_control",
@@ -187,13 +187,13 @@
       "true_colors",
       "upstalk"
     ],
-    "cycle_codename_list": []
+    "cycle_codenames": []
   },
   {
     "codename": "ram_4",
     "oracle_name": "RAM 4",
     "format_codename": "ram",
-    "set_codename_list": [
+    "set_codenames": [
       "blood_and_water",
       "council_of_the_crest",
       "cyber_exodus",
@@ -209,13 +209,13 @@
       "the_valley",
       "up_and_over"
     ],
-    "cycle_codename_list": []
+    "cycle_codenames": []
   },
   {
     "codename": "ram_5",
     "oracle_name": "RAM 5",
     "format_codename": "ram",
-    "set_codename_list": [
+    "set_codenames": [
       "23_seconds",
       "all_that_remains",
       "core_set",
@@ -231,13 +231,13 @@
       "upstalk",
       "what_lies_ahead"
     ],
-    "cycle_codename_list": []
+    "cycle_codenames": []
   },
   {
     "codename": "ram_6",
     "oracle_name": "RAM 6",
     "format_codename": "ram",
-    "set_codename_list": [
+    "set_codenames": [
       "chrome_city",
       "data_and_destiny",
       "double_time",
@@ -253,13 +253,13 @@
       "up_and_over",
       "whispers_in_nalubaale"
     ],
-    "cycle_codename_list": []
+    "cycle_codenames": []
   },
   {
     "codename": "ram_7",
     "oracle_name": "RAM 7",
     "format_codename": "ram",
-    "set_codename_list": [
+    "set_codenames": [
       "all_that_remains",
       "creation_and_control",
       "daedalus_complex",
@@ -275,13 +275,13 @@
       "up_and_over",
       "upstalk"
     ],
-    "cycle_codename_list": []
+    "cycle_codenames": []
   },
   {
     "codename": "snapshot",
     "oracle_name": "Snapshot",
     "format_codename": "snapshot",
-    "set_codename_list": [
+    "set_codenames": [
       "23_seconds",
       "all_that_remains",
       "blood_and_water",
@@ -326,7 +326,7 @@
       "upstalk",
       "whispers_in_nalubaale"
     ],
-    "cycle_codename_list": [
+    "cycle_codenames": [
       "creation_and_control",
       "data_and_destiny",
       "flashpoint",
@@ -345,7 +345,7 @@
     "codename": "pre_rotation",
     "oracle_name": "Pre Rotation",
     "format_codename": "standard",
-    "set_codename_list": [
+    "set_codenames": [
       "23_seconds",
       "a_study_in_static",
       "all_that_remains",
@@ -395,7 +395,7 @@
       "upstalk",
       "what_lies_ahead"
     ],
-    "cycle_codename_list": [
+    "cycle_codenames": [
       "core_set",
       "creation_and_control",
       "data_and_destiny",
@@ -414,7 +414,7 @@
     "codename": "rotation_2017",
     "oracle_name": "First Rotation",
     "format_codename": "standard",
-    "set_codename_list": [
+    "set_codenames": [
       "23_seconds",
       "all_that_remains",
       "blood_and_water",
@@ -459,7 +459,7 @@
       "upstalk",
       "whispers_in_nalubaale"
     ],
-    "cycle_codename_list": [
+    "cycle_codenames": [
       "creation_and_control",
       "data_and_destiny",
       "flashpoint",
@@ -478,7 +478,7 @@
     "codename": "rotation_2018",
     "oracle_name": "Second Rotation",
     "format_codename": "standard",
-    "set_codename_list": [
+    "set_codenames": [
       "23_seconds",
       "all_that_remains",
       "blood_and_water",
@@ -524,7 +524,7 @@
       "upstalk",
       "whispers_in_nalubaale"
     ],
-    "cycle_codename_list": [
+    "cycle_codenames": [
       "creation_and_control",
       "data_and_destiny",
       "flashpoint",
@@ -545,7 +545,7 @@
     "codename": "rotation_2019",
     "oracle_name": "Third Rotation",
     "format_codename": "standard",
-    "set_codename_list": [
+    "set_codenames": [
       "23_seconds",
       "blood_and_water",
       "blood_money",
@@ -587,7 +587,7 @@
       "uprising_booster_pack",
       "whispers_in_nalubaale"
     ],
-    "cycle_codename_list": [
+    "cycle_codenames": [
       "ashes",
       "data_and_destiny",
       "flashpoint",
@@ -607,7 +607,7 @@
     "codename": "rotation_2020",
     "oracle_name": "Salvaged Memories",
     "format_codename": "standard",
-    "set_codename_list": [
+    "set_codenames": [
       "23_seconds",
       "blood_and_water",
       "blood_money",
@@ -650,7 +650,7 @@
       "uprising_booster_pack",
       "whispers_in_nalubaale"
     ],
-    "cycle_codename_list": [
+    "cycle_codenames": [
       "ashes",
       "data_and_destiny",
       "flashpoint",
@@ -671,7 +671,7 @@
     "codename": "rotation_2021",
     "oracle_name": "Fourth Rotation",
     "format_codename": "standard",
-    "set_codename_list": [
+    "set_codenames": [
       "23_seconds",
       "blood_and_water",
       "blood_money",
@@ -707,7 +707,7 @@
       "uprising_booster_pack",
       "whispers_in_nalubaale"
     ],
-    "cycle_codename_list": [
+    "cycle_codenames": [
       "ashes",
       "data_and_destiny",
       "flashpoint",
@@ -726,7 +726,7 @@
     "codename": "rotation_2022",
     "oracle_name": "Fifth Rotation",
     "format_codename": "standard",
-    "set_codename_list": [
+    "set_codenames": [
       "23_seconds",
       "blood_and_water",
       "blood_money",
@@ -758,7 +758,7 @@
       "uprising_booster_pack",
       "whispers_in_nalubaale"
     ],
-    "cycle_codename_list": [
+    "cycle_codenames": [
       "ashes",
       "borealis",
       "data_and_destiny",
@@ -776,7 +776,7 @@
     "codename": "rotation_2023",
     "oracle_name": "Sixth Rotation",
     "format_codename": "standard",
-    "set_codename_list": [
+    "set_codenames": [
       "blood_and_water",
       "council_of_the_crest",
       "crimson_dust",
@@ -803,7 +803,7 @@
       "uprising_booster_pack",
       "whispers_in_nalubaale"
     ],
-    "cycle_codename_list": [
+    "cycle_codenames": [
       "ashes",
       "borealis",
       "kitara",
@@ -817,126 +817,10 @@
     ]
   },
   {
-    "codename": "startup_ashes",
-    "oracle_name": "Startup (Ashes)",
-    "format_codename": "startup",
-    "set_codename_list": [
-      "downfall",
-      "system_gateway",
-      "system_update_2021",
-      "uprising",
-      "uprising_booster_pack"
-    ],
-    "cycle_codename_list": [
-      "ashes",
-      "system_gateway",
-      "system_update_2021"
-    ]
-  },
-  {
-    "codename": "startup_ashes_plus",
-    "oracle_name": "Startup (Ashes+)",
-    "format_codename": "startup",
-    "set_codename_list": [
-      "downfall",
-      "midnight_sun_booster_pack",
-      "system_gateway",
-      "system_update_2021",
-      "uprising",
-      "uprising_booster_pack"
-    ],
-    "cycle_codename_list": [
-      "ashes",
-      "system_gateway",
-      "system_update_2021"
-    ]
-  },
-  {
-    "codename": "startup_ashes_plus_midnight_sun",
-    "oracle_name": "Startup (Ashes + Midnight Sun)",
-    "format_codename": "startup",
-    "set_codename_list": [
-      "downfall",
-      "midnight_sun",
-      "midnight_sun_booster_pack",
-      "system_gateway",
-      "system_update_2021",
-      "uprising",
-      "uprising_booster_pack"
-    ],
-    "cycle_codename_list": [
-      "ashes",
-      "system_gateway",
-      "system_update_2021"
-    ]
-  },
-  {
-    "codename": "startup_borealis",
-    "oracle_name": "Startup (Borealis)",
-    "format_codename": "startup",
-    "set_codename_list": [
-      "midnight_sun",
-      "midnight_sun_booster_pack",
-      "parhelion",
-      "system_gateway",
-      "system_update_2021"
-    ],
-    "cycle_codename_list": [
-      "borealis",
-      "system_gateway",
-      "system_update_2021"
-    ]
-  },
-  {
-    "codename": "startup_borealis_plus_the_automata_initiative",
-    "oracle_name": "Startup (The Automata Initiative)",
-    "format_codename": "startup",
-    "set_codename_list": [
-      "midnight_sun",
-      "midnight_sun_booster_pack",
-      "parhelion",
-      "system_gateway",
-      "system_update_2021",
-      "the_automata_initiative"
-    ],
-    "cycle_codename_list": [
-      "borealis",
-      "system_gateway",
-      "system_update_2021"
-    ]
-  },
-  {
-    "codename": "startup_liberation",
-    "oracle_name": "Startup (Liberation)",
-    "format_codename": "startup",
-    "set_codename_list": [
-      "rebellion_without_rehearsal",
-      "system_gateway",
-      "system_update_2021",
-      "the_automata_initiative"
-    ],
-    "cycle_codename_list": [
-      "liberation",
-      "system_gateway",
-      "system_update_2021"
-    ]
-  },
-  {
-    "codename": "system_gateway",
-    "oracle_name": "System Gateway",
-    "format_codename": "system_gateway",
-    "set_codename_list": [
-      "system_gateway"
-    ],
-    "cycle_codename_list": [
-      "system_gateway"
-    ]
-  },
-  {
     "codename": "rotation_2025",
     "oracle_name": "Seventh Rotation",
     "format_codename": "standard",
-    "set_codename_list": [
+    "set_codenames": [
       "downfall",
       "elevation",
       "midnight_sun",
@@ -948,7 +832,7 @@
       "uprising",
       "uprising_booster_pack"
     ],
-    "cycle_codename_list": [
+    "cycle_codenames": [
       "ashes",
       "borealis",
       "elevation",
@@ -957,18 +841,134 @@
     ]
   },
   {
+    "codename": "startup_ashes",
+    "oracle_name": "Startup (Ashes)",
+    "format_codename": "startup",
+    "set_codenames": [
+      "downfall",
+      "system_gateway",
+      "system_update_2021",
+      "uprising",
+      "uprising_booster_pack"
+    ],
+    "cycle_codenames": [
+      "ashes",
+      "system_gateway",
+      "system_update_2021"
+    ]
+  },
+  {
+    "codename": "startup_ashes_plus",
+    "oracle_name": "Startup (Ashes+)",
+    "format_codename": "startup",
+    "set_codenames": [
+      "downfall",
+      "midnight_sun_booster_pack",
+      "system_gateway",
+      "system_update_2021",
+      "uprising",
+      "uprising_booster_pack"
+    ],
+    "cycle_codenames": [
+      "ashes",
+      "system_gateway",
+      "system_update_2021"
+    ]
+  },
+  {
+    "codename": "startup_ashes_plus_midnight_sun",
+    "oracle_name": "Startup (Ashes + Midnight Sun)",
+    "format_codename": "startup",
+    "set_codenames": [
+      "downfall",
+      "midnight_sun",
+      "midnight_sun_booster_pack",
+      "system_gateway",
+      "system_update_2021",
+      "uprising",
+      "uprising_booster_pack"
+    ],
+    "cycle_codenames": [
+      "ashes",
+      "system_gateway",
+      "system_update_2021"
+    ]
+  },
+  {
+    "codename": "startup_borealis",
+    "oracle_name": "Startup (Borealis)",
+    "format_codename": "startup",
+    "set_codenames": [
+      "midnight_sun",
+      "midnight_sun_booster_pack",
+      "parhelion",
+      "system_gateway",
+      "system_update_2021"
+    ],
+    "cycle_codenames": [
+      "borealis",
+      "system_gateway",
+      "system_update_2021"
+    ]
+  },
+  {
+    "codename": "startup_borealis_plus_the_automata_initiative",
+    "oracle_name": "Startup (The Automata Initiative)",
+    "format_codename": "startup",
+    "set_codenames": [
+      "midnight_sun",
+      "midnight_sun_booster_pack",
+      "parhelion",
+      "system_gateway",
+      "system_update_2021",
+      "the_automata_initiative"
+    ],
+    "cycle_codenames": [
+      "borealis",
+      "system_gateway",
+      "system_update_2021"
+    ]
+  },
+  {
+    "codename": "startup_liberation",
+    "oracle_name": "Startup (Liberation)",
+    "format_codename": "startup",
+    "set_codenames": [
+      "rebellion_without_rehearsal",
+      "system_gateway",
+      "system_update_2021",
+      "the_automata_initiative"
+    ],
+    "cycle_codenames": [
+      "liberation",
+      "system_gateway",
+      "system_update_2021"
+    ]
+  },
+  {
     "codename": "startup_elevation",
     "oracle_name": "Startup (Elevation)",
     "format_codename": "startup",
-    "set_codename_list": [
+    "set_codenames": [
       "elevation",
       "rebellion_without_rehearsal",
       "system_gateway",
       "the_automata_initiative"
     ],
-    "cycle_codename_list": [
+    "cycle_codenames": [
       "elevation",
       "liberation",
+      "system_gateway"
+    ]
+  },
+  {
+    "codename": "system_gateway",
+    "oracle_name": "System Gateway",
+    "format_codename": "system_gateway",
+    "set_codenames": [
+      "system_gateway"
+    ],
+    "cycle_codenames": [
       "system_gateway"
     ]
   }
