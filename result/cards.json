@@ -960,9 +960,9 @@
     "oracle_title": "Afterimage",
     "locale_title": "残影",
     "stripped_title": "Afterimage",
-    "oracle_text": "Once per turn → When you encounter a <strong>sentry</strong>, you may pay 2[credit] to bypass it. Use this ability only by spending credits from <strong>stealth</strong> cards.\nInterface → <strong>1[credit]:</strong> Break up to 2 <strong>sentry</strong> subroutines.\n<strong>1[credit]:</strong> +2 strength. Use this ability only by spending a credit from a <strong>stealth</strong> card.pray",
+    "oracle_text": "Once per turn → When you encounter a <strong>sentry</strong>, you may pay 2[credit] to bypass it. Use this ability only by spending credits from <strong>stealth</strong> cards.\nInterface → <strong>1[credit]:</strong> Break up to 2 <strong>sentry</strong> subroutines.\n<strong>1[credit]:</strong> +2 strength. Use this ability only by spending a credit from a <strong>stealth</strong> card.",
     "locale_text": "每回合限一次 → 当你遭遇一层<strong>警报</strong>时，你可以支付2[credit]以略过之。本能力仅能花费<strong>隐匿</strong>卡牌上的信用点来使用。\n对接 → <strong>1[credit]:</strong> 破解最多2条<strong>警报</strong>子进程。\n<strong>1[credit]:</strong> 强度+2。本能力仅能花费<strong>隐匿</strong>卡牌上的信用点来使用。",
-    "stripped_text": "Once per turn -> When you encounter a sentry, you may pay 2[credit] to bypass it. Use this ability only by spending credits from stealth cards. Interface -> 1[credit]: Break up to 2 sentry subroutines. 1[credit]: +2 strength. Use this ability only by spending a credit from a stealth card.pray",
+    "stripped_text": "Once per turn -> When you encounter a sentry, you may pay 2[credit] to bypass it. Use this ability only by spending credits from stealth cards. Interface -> 1[credit]: Break up to 2 sentry subroutines. 1[credit]: +2 strength. Use this ability only by spending a credit from a stealth card.",
     "type_codename": "program",
     "subtype_codenames": [
       "icebreaker",
@@ -7489,9 +7489,9 @@
     "oracle_title": "Brasília Government Grid",
     "locale_title": "巴西利亚政府网阵",
     "stripped_title": "Brasilia Government Grid",
-    "oracle_text": "Once per turn → When you rez a piece of ice during a run against this server, you may derez another installed piece of ice. If you do, the rezzed ice gets +3 strength for the remainder of that run.",
+    "oracle_text": "Once per turn → When you rez a piece of ice during a run against this server, you may derez another installed piece of ice. If you do, the rezzed ice gets +3 strength for the remainder of that run.\nLimit 1 <strong>region</strong> per server.",
     "locale_text": "每回合限一次 → 在对本服务器的潜袭中，当你激活一层防火墙时，你可以关闭另一层已安装的防火墙。如果你如此做，被激活的防火墙在本次潜袭的剩余时间内强度+3。\n每台服务器限制1个<strong>区域</strong>。",
-    "stripped_text": "Once per turn -> When you rez a piece of ice during a run against this server, you may derez another installed piece of ice. If you do, the rezzed ice gets +3 strength for the remainder of that run.",
+    "stripped_text": "Once per turn -> When you rez a piece of ice during a run against this server, you may derez another installed piece of ice. If you do, the rezzed ice gets +3 strength for the remainder of that run. Limit 1 region per server.",
     "type_codename": "upgrade",
     "subtype_codenames": [
       "region"
@@ -31798,9 +31798,9 @@
     "oracle_title": "Labyrinthine Servers",
     "locale_title": "服务器迷阵",
     "stripped_title": "Labyrinthine Servers",
-    "oracle_text": "When you score this agenda, place 2 agenda counters on it.\n[interrupt] → <strong>Hosted power counter:</strong> Prevent the Runner from jacking out. The Runner cannot jack out for the remainder of this run.",
+    "oracle_text": "When you score this agenda, place 2 power counters on it.\n[interrupt] → <strong>Hosted power counter:</strong> Prevent the Runner from jacking out. The Runner cannot jack out for the remainder of this run.",
     "locale_text": "当你用服务器迷阵计分时，放置2枚能量指示物到本卡牌上。\n<strong>所附载的能量指示物</strong>: 防止潜袭者退出。本次潜袭的剩余时间内潜袭者不能退出。",
-    "stripped_text": "When you score this agenda, place 2 agenda counters on it. Interrupt -> Hosted power counter: Prevent the Runner from jacking out. The Runner cannot jack out for the remainder of this run.",
+    "stripped_text": "When you score this agenda, place 2 power counters on it. Interrupt -> Hosted power counter: Prevent the Runner from jacking out. The Runner cannot jack out for the remainder of this run.",
     "type_codename": "agenda",
     "subtype_codenames": [
       "security"
@@ -43082,9 +43082,9 @@
     "oracle_title": "Patchwork",
     "locale_title": "",
     "stripped_title": "Patchwork",
-    "oracle_text": "+1[mu]\n[interrupt], once per turn → When you would play or install a card, you may trash 1 card from your grip. If you do, instead play or install that card paying 2[credit] less.",
+    "oracle_text": "+1[mu]\n[interrupt], once per turn → When you would play or install a card, you may trash 1 card from your grip. If you do, instead play or install that card paying 2[credit] less.\nLimit 1 <strong>console</strong> per player.",
     "locale_text": "",
-    "stripped_text": "+1 mu Interrupt, once per turn -> When you would play or install a card, you may trash 1 card from your grip. If you do, instead play or install that card paying 2[credit] less.",
+    "stripped_text": "+1 mu Interrupt, once per turn -> When you would play or install a card, you may trash 1 card from your grip. If you do, instead play or install that card paying 2[credit] less. Limit 1 console per player.",
     "type_codename": "hardware",
     "subtype_codenames": [
       "console"
