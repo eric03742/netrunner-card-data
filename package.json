@@ -1,6 +1,6 @@
 {
   "name": "@eric03742/netrunner-card-data",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "《矩阵潜袭》中文卡牌数据库导出工具",
   "main": "dist/index.js",
   "bin": "dist/index.js",

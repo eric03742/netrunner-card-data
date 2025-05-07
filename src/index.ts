@@ -27,7 +27,7 @@ const MIRROR_LINK = "https://gitee.com/eric03742/netrunner-database/releases/dow
 program
     .name("netrunner-card-data")
     .description("《矩阵潜袭》中文卡牌数据库导出工具")
-    .version("0.3.0", "-v, --version", "显示程序版本")
+    .version("0.4.0", "-v, --version", "显示程序版本")
     .option("--mirror", "使用国内镜像源")
     ;
 
