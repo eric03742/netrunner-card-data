@@ -807,7 +807,7 @@
     "oracle_name": "Elevation",
     "locale_name": "仰望",
     "cycle_codename": "elevation",
-    "settype_codename": "deluxe",
+    "settype_codename": "core",
     "release_date": "2025-04-24",
     "position": 1,
     "size": 82,
