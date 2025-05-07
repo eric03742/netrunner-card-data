@@ -1,8 +1,7 @@
 {
   "name": "@eric03742/netrunner-card-data",
   "version": "0.3.0",
-  "description": "《矩阵潜袭》中文卡牌数据库数据导出工具",
-  "type": "module",
+  "description": "《矩阵潜袭》中文卡牌数据库导出工具",
   "main": "dist/index.js",
   "bin": "dist/index.js",
   "files": [
@@ -31,16 +30,13 @@
     "url": "https://github.com/eric03742/netrunner-card-data/issues"
   },
   "homepage": "https://github.com/eric03742/netrunner-card-data#readme",
-  "engines": {
-    "node": ">= 22.11 < 23"
-  },
   "devDependencies": {
     "@types/node": "^22.14.1",
     "rimraf": "^6.0.1",
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@eric03742/netrunner-entities": "^0.5.0",
+    "@eric03742/netrunner-entities": "^1.1.0",
     "commander": "^13.1.0",
     "loglevel": "^1.9.2",
     "mysql2": "^3.14.0",

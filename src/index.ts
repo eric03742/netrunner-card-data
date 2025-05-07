@@ -5,45 +5,55 @@ import fs from "fs/promises";
 import log from "loglevel";
 import path from "path";
 import { program } from "commander";
-import { EntityTarget } from "typeorm";
+import { DataSource, EntityTarget } from "typeorm";
 
 import {
-    NetrunnerDataSource, NetrunnerDataSourceOptions,
-    BaseEntity, SideEntity, FactionEntity, TypeEntity, SubtypeEntity,
+    NetrunnerDataSource, BaseEntity,
+    SideEntity, FactionEntity, TypeEntity, SubtypeEntity,
     SettypeEntity, CycleEntity, SetEntity,
     FormatEntity, PoolEntity, RestrictionEntity, SnapshotEntity,
     CardEntity, PrintingEntity, RulingEntity,
 } from "@eric03742/netrunner-entities";
 
-interface AppOptions extends NetrunnerDataSourceOptions {
-    output: string;
+interface AppOptions {
+    mirror: boolean;
 }
+
+const DOWNLOAD_FILE = "netrunner.sqlite";
+const OUTPUT_DIR = "result";
+const MAIN_LINK = "https://github.com/eric03742/netrunner-database/releases/latest/download/netrunner.sqlite";
+const MIRROR_LINK = "https://gitee.com/eric03742/netrunner-database/releases/download/latest/netrunner.sqlite";
 
 program
+    .name("netrunner-card-data")
+    .description("《矩阵潜袭》中文卡牌数据库导出工具")
     .version("0.3.0", "-v, --version", "显示程序版本")
-    .requiredOption("--host <host>", "数据库地址")
-    .requiredOption("--port <port>", "端口", parseInt)
-    .requiredOption("--username <username>", "用户名")
-    .requiredOption("--password <password>", "密码")
-    .requiredOption("--database <database>", "数据库名")
-    .requiredOption("--output <output>", "导出目录")
+    .option("--mirror", "使用国内镜像源")
     ;
-program.parse();
-const options = program.opts<AppOptions>();
-const AppDataSource = new NetrunnerDataSource(options);
 
-async function initialize(): Promise<void> {
+async function initialize(): Promise<DataSource> {
+    program.parse();
     log.setLevel(log.levels.INFO);
-    await AppDataSource.initialize();
-    log.info(`MySQL server '${options.host}:${options.port}', database '${options.database}' connected!`);
+    const options = program.opts<AppOptions>();
+    const link = options.mirror ? MIRROR_LINK : MAIN_LINK;
+    log.info(`Using: ${link} as database source!`);
+
+    const result = await fetch(link);
+    if(!result.ok) {
+        throw new Error(`Download SQLite database 'netrunner.sqlite' from ${link} failed!`);
+    }
+
+    const buffer = await result.bytes();
+    await fs.writeFile(DOWNLOAD_FILE, buffer);
+
+    const source = NetrunnerDataSource.create(DOWNLOAD_FILE);
+    await source.initialize();
+    log.info(`SQLite database '${DOWNLOAD_FILE}' connected!`);
+    return source;
 }
 
-async function terminate(): Promise<void> {
-    await AppDataSource.destroy();
-}
-
-async function extract<T extends BaseEntity>(type: EntityTarget<T>, filename: string): Promise<void> {
-    const database = AppDataSource.getRepository(type);
+async function extract<T extends BaseEntity>(source: DataSource, type: EntityTarget<T>, filename: string): Promise<void> {
+    const database = source.getRepository(type);
     const items = await database.find();
     const content = JSON.stringify(items, (k, v) => {
         if(k === "id") {
@@ -56,26 +66,27 @@ async function extract<T extends BaseEntity>(type: EntityTarget<T>, filename: st
 
         return v;
     }, 2);
-    await fs.writeFile(path.join(options.output, filename + ".json"), content, "utf8");
+    await fs.writeFile(path.join(OUTPUT_DIR, filename + ".json"), content, "utf8");
     log.info(`Save '${filename}' finished!`);
 }
 
 async function main(): Promise<void> {
-    await initialize();
-    await extract(SideEntity, "sides");
-    await extract(FactionEntity, "factions");
-    await extract(TypeEntity, "types");
-    await extract(SubtypeEntity, "subtypes");
-    await extract(SettypeEntity, "settypes");
-    await extract(CycleEntity, "cycles");
-    await extract(SetEntity, "sets");
-    await extract(FormatEntity, "formats");
-    await extract(PoolEntity, "pools");
-    await extract(RestrictionEntity, "restrictions");
-    await extract(SnapshotEntity, "snapshots");
-    await extract(CardEntity, "cards");
-    await extract(PrintingEntity, "printings");
-    await extract(RulingEntity, "rulings");
+    const source = await initialize();
+    await extract(source, SideEntity, "sides");
+    await extract(source, FactionEntity, "factions");
+    await extract(source, TypeEntity, "types");
+    await extract(source, SubtypeEntity, "subtypes");
+    await extract(source, SettypeEntity, "settypes");
+    await extract(source, CycleEntity, "cycles");
+    await extract(source, SetEntity, "sets");
+    await extract(source, FormatEntity, "formats");
+    await extract(source, PoolEntity, "pools");
+    await extract(source, RestrictionEntity, "restrictions");
+    await extract(source, SnapshotEntity, "snapshots");
+    await extract(source, CardEntity, "cards");
+    await extract(source, PrintingEntity, "printings");
+    await extract(source, RulingEntity, "rulings");
+    await source.destroy();
 }
 
 main()
@@ -87,5 +98,6 @@ main()
         log.error("Stacktrace: " + err.stack);
     })
     .finally(async () => {
-        await terminate();
-    });
+        await fs.unlink(DOWNLOAD_FILE);
+    })
+    ;
