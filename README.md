@@ -4,34 +4,34 @@
 
 ## 简介
 
-`netrunner-card-data` 用于将由 [netrunner-database](https://github.com/eric03742/netrunner-database) 导入中文卡牌数据库的数据导出为JSON格式的文本文件。
+`netrunner-card-data` 用于将由 [netrunner-database](https://github.com/eric03742/netrunner-database) 生成的《矩阵潜袭》中文卡牌数据库导出为JSON格式的文本文件。
 
-## 使用
+## 本地运行
 
-使用以下命令运行工具：
+拉取或下载本仓库后使用以下命令安装：
 
 ```shell
-npx @eric03742/netrunner-card-data \
-    --host={HOST} \
-    --port={PORT} \
-    --username={USERNAME} \
-    --password={PASSWORD} \
-    --database={DATABASE} \
-    --output={OUTPUT_DIR}
+npm install
+npm run build:release
 ```
 
-**参数说明**
+编译完成后使用以下命令运行：
 
-* `--host`：数据库地址
-* `--port`：端口
-* `--username`：用户名
-* `--password`：密码
-* `--database`：数据库名
-* `--output`：导出目录
+```shell
+npm run start [-- --mirror]
+```
+
+其中参数 `--mirror` 表示使用国内的 [Gitee](https://gitee.com/eric03742/netrunner-database) 镜像源数据库。不加参数时，默认使用 [GitHub](https://github.com/eric03742/netrunner-database) 源。
+
+生成的数据位于 `result` 文件夹下。
 
 ## 数据源
 
-卡牌数据来自 [NetrunnerDB](https://netrunnerdb.com/) API，中文文本数据来自 [NetrunnerCN/netrunner-card-text-Chinese](https://github.com/NetrunnerCN/netrunner-card-text-Chinese)。
+你可以在项目目录中的 `result` 文件夹下查看最新版本的导出数据。
+
+本项目使用 [netrunner-database](https://github.com/eric03742/netrunner-database) 生成的 SQLite 数据库文件作为数据来源。
+
+卡牌数据来自 [NetrunnerDB](https://netrunnerdb.com/) 及其 GitHub 仓库 [netrunner-card-json](https://github.com/NetrunnerDB/netrunner-cards-json)，中文文本数据来自 [netrunner-card-text-Chinese](https://github.com/eric03742/netrunner-card-text-Chinese)。
 
 本仓库及其开发者与 Fantasy Flight Games、Wizards of the Coast、Null Signal Games、NetrunnerDB 均无关联。
 
